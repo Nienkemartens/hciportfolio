@@ -1,0 +1,2022 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,500,900');
+
+body{
+	width: 980px;
+	margin: 0 auto;
+	background-color: lightgrey;
+
+}
+
+.zoekbalk{
+    width: 130px;
+    box-sizing: border-box;
+    border: 0.5px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-size: 20px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    z-index: 100;
+}
+
+input[type=text]:focus {
+    width: 30%;
+}
+
+/* Navigatie rechtsboven */
+.navright > article {
+	z-index: 999;
+	position: absolute;
+	top: 5px;
+	right: 250px;
+}
+
+.zoekfunctie{
+	z-index: 999;
+	position: absolute;
+	top: -10px;
+	right: 190px;
+}
+
+.social{
+	top: -10px;
+	right: 155px;
+	position: absolute;
+	z-index: 999;
+}
+
+.socialt {
+	top: -10px;
+	right: 130px;
+	position: absolute;
+	z-index: 999;
+}
+
+.inloggen > a{
+	top: 5px;
+	right: -150px;
+	position: absolute;
+	z-index: 999;
+	font-family: Lato;
+	color: white; 
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+.shopbag {
+	top: -10px;
+	right: 18px;
+	position: absolute;
+	z-index: 999;
+}
+
+.navright > article > {
+	top: -10px;
+	right: 18px;
+	position: absolute;
+	color: white; 
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+/* einde navigatie rechtsboven */
+
+/*begin navigatie opmaak*/
+
+
+
+nav > ul > li > a:hover {
+	color: #f05a28;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 500px;
+
+}
+
+.actief{
+	color: #f05a28;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 500px;
+}
+
+nav > ul {
+	margin: 0 auto;
+	width: 890px;
+	list-style: none;
+	padding: 16px 0;
+	text-align: center;
+	display: block;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+
+}
+
+body > header nav {
+position: absolute;
+top: 150px;
+left: 0;
+z-index: 999;
+width: 100%;
+}
+
+nav li a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Lato;
+	font-size: 13px;
+
+}
+
+nav li:first-child{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	top: -256px;
+	padding-left: 0;
+
+}
+
+
+
+nav li ul {
+	position: absolute;
+	left: 0;
+	font-family: 
+}
+
+nav li:first-child img{
+	width: 90px;
+	margin: 0 auto;
+	position: relative;
+	top: 120px;
+
+
+}
+nav li {
+	display: inline-block;
+	margin: 0 16px;
+	top: 100px;
+
+}
+
+/*einde navigatie opmaak*/
+
+body > header {
+	position: relative;
+}
+
+body > section:nth-child(2), body > section:nth-child(3){
+	/*width: 50%;*/
+	/*-Opmaak van stoelen reserveren-*/
+	/*height: 300px;*/
+	float: left;
+	/*background-color: red;*/
+}
+
+/* Zinsbegoocheling */
+body > section:nth-child(2) article:first-child{
+	width: 490px;
+	height: 490px;
+	background-color: black;
+	position: relative;
+	cursor: pointer;
+}
+
+body > section:nth-child(2) article:first-child figure{
+	margin: 0;
+}
+
+body > section:nth-child(2) article:first-child img{
+	position: absolute;
+	margin-bottom: 100px;
+	top: 0;
+	left: 0;
+}
+
+body > section:nth-child(2) article:first-child figcaption{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-family: "Lato";
+	color: white;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 300;
+}
+
+body > section:nth-child(2) article:first-child:hover img:first-child, body > section:nth-child(2) article:first-child img:nth-child(2){
+	display: none;
+}
+
+body > section:nth-child(2) article:first-child:hover img:nth-child(2){
+	display: block;
+}
+
+body > section:nth-child(2) article:first-child figcaption span{
+	font-weight: 900;
+	color: #DF1D4E;
+}
+
+body > section:nth-child(2) article:first-child figcaption button{
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	text-transform: uppercase;
+	padding: 8px 16px;
+	font-family: "Lato";
+	font-weight: 300;
+	margin-bottom: 64px;
+}
+
+body > section:nth-child(2) article:first-child:hover figcaption button{
+	background-color: #DF1D4E;
+	border: 1px solid #DF1D4E;
+	cursor: pointer;
+
+}
+
+.Programmaentickets{
+	margin-left: -40px;
+	margin-top: -16px;
+}
+
+.tweedeafbl:nth-child(2)article:first-child:hover img:nth-child(2){
+	display: block;
+}
+
+.tweedeafbl{
+    margin-bottom: 100px;
+    top: 0;
+    left: 0;
+}
+    
+
+/* Canadese muur */
+
+/*.canadesemuurText {
+	position: absolute;
+	font-family: "Lato";
+	color: white;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 300;
+	z-index: 999;
+	margin-top: -190px;
+	margin-left: 80px;
+	width:400px;
+
+}
+
+
+ body > section:nth-child(3) article:nth-child(3) figcaption button{
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	text-transform: uppercase;
+	padding: 8px 16px;
+	font-family: "Lato";
+	font-weight: 300;
+	margin-bottom: 64px;
+	z-index: 999;
+}
+
+
+body > section:nth-child(3) article:first-child figcaption button{
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	text-transform: uppercase;
+	padding: 8px 16px;
+	font-family: "Lato";
+	font-weight: 300;
+	margin-bottom: 64px;
+	z-index: 999;
+}*/
+
+
+/*--Canadese muur opmaak--*/
+
+/*body > section:nth-child(2) article:nth-child(2) {
+	
+}
+
+body > section:nth-child(2) article:nth-child(2) figcaption span {
+	font-weight: 900;
+color: #DF1D4E;
+}
+
+body > section:nth-child(2) article:nth-child(2) figcaption button {
+	background-color: transparent;
+color: white;
+border: 1px solid white;
+text-transform: uppercase;
+padding: 8px 16px;
+font-family: "Lato";
+font-weight: 300;
+margin-bottom: 64px;
+}
+
+body > section:nth-child(2) article:first-child:hover img:first-child, body > section:nth-child(2) article:nth-child(2) img:nth-child(2){
+	display: none;
+}*/
+
+/*opmaak button canadese muur*/
+
+ body > section:nth-child(2) article:nth-child(3) figcaption button{
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	text-transform: uppercase;
+	padding: 8px 16px;
+	font-family: "Lato";
+	font-weight: 300;
+	z-index: 999;
+}
+
+body > section:nth-child(2) article:nth-child(2):hover figcaption button{
+	background-color: #DF1D4E;
+	border: 1px solid #DF1D4E;
+	cursor: pointer;
+}*/
+
+.canadeseMuur{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: "Lato";
+    color: white;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    }
+
+/*-- eind canadese muur opmaak--*/
+
+
+/*-- begin programma & tickets--*/
+
+.Programmaentickets {
+	position: absolute;
+	margin-top: -16px;
+	margin-left: -40px;
+	z-index: 10;
+
+}
+/*-Ik wil de button en figcapion graag naar de voorgrond halen.
+echter is het mij niet gelukt doormiddel van de z-index-*/
+
+/*-
+
+figcaption.programmaenticketstext{
+	position: absolute;
+	font-family: "Lato";
+	color: white;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 300;
+	z-index: 999;
+	margin-top: -363px;
+	margin-left: 80px;
+	width:400px;
+	margin-left: 60px;
+	
+}
+-*/
+
+.buttonC{
+	background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    font-family: "Lato";
+    font-weight: 300;
+    margin-bottom: 64px;
+    margin-left: 255px;
+}
+
+.buttonP{
+	background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    font-family: "Lato";
+    font-weight: 300;
+    margin-bottom: -80px;
+    margin-left: 280px;
+}
+
+
+.Programmaentickets{
+	position: absolute;
+	margin-top: -16px;
+	margin-left: -40px;
+	z-index: 10;
+
+}
+
+
+
+
+.programmaenticketstextTwee{
+	position: absolute;
+	font-family: "Lato";
+	color: white;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: 300;
+	z-index: 999;
+	width:400px;
+	margin-left: 60px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: -680px;
+    margin-left: 180px;
+}
+
+.programmaenticketstextTwee > span{
+	font-family: "Lato";
+	text-transform: uppercase;
+	z-index: 999;
+	font-weight: 900;
+    color: #DF1D4E;
+    text-align: center;
+}
+
+
+.programmaenticketstext{
+	position: absolute;
+	font-family: "Lato";
+	color: white;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: 300;
+	z-index: 999;
+	width:400px;
+	margin-left: 60px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: -510px;
+	
+}
+
+
+.programmaenticketstext > span{
+	font-family: "Lato";
+	text-transform: uppercase;
+	z-index: 999;
+	font-weight: 900;
+    color: #DF1D4E;
+    text-align: center;
+    margin-left: 147px;
+}
+
+body > section:nth-child(2) article:nth-child(3) figcaption button:hover{
+	background-color: #DF1D4E;
+    border: 1px solid #DF1D4E;
+    cursor: pointer;
+}
+
+/*-nieuwsbrief--*/
+
+.nieuwsbrief {
+	position: absolute;
+	margin-left: -40px;
+	margin-top: -16px;
+}
+
+.textSectionTwo{
+	position: absolute;
+	font-family: "Lato";
+    text-transform: uppercase;
+    z-index: 999;
+    font-weight: 300;
+    color: white;
+    margin-left: 2px;
+    font-size: 2.5em;
+    margin-top: 34px;
+    margin-left: 19px;
+}
+
+
+.textSectionTwo >span{
+    position: absolute;
+	font-family: "Lato";
+    text-transform: uppercase;
+    z-index: 999;
+    font-weight: 900;
+    color: #DF1D4E;
+    margin-left: -5px;
+}
+
+.buttonN{
+	position: absolute;
+	z-index: 999;
+	background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    font-family: "Lato";
+    font-weight: 300;
+    margin-top: 149px;
+    margin-left: 40px;
+}
+
+
+.buttonN:hover{
+	background-color: #DF1D4E;
+    border: 1px solid #DF1D4E;
+    cursor: pointer;
+}
+
+/*-einde nieuwsbrief--*/
+/*-food&drinks--*/
+
+.foodendrinks {
+	position: absolute;
+	margin-top: -16px;
+	margin-left: -42px;
+}
+
+
+.textSectionThree{
+	position: absolute;
+	font-family: "Lato";
+    text-transform: uppercase;
+    z-index: 999;
+    font-weight: 300;
+    color: white;
+    margin-left: 2px;
+    font-size: 2.5em;
+    margin-top: 34px;
+    margin-left: 19px;
+}
+
+.textSectionThree >span{
+    position: absolute;
+	font-family: "Lato";
+    text-transform: uppercase;
+    z-index: 999;
+    font-weight: 900;
+    color: #DF1D4E;
+    margin-left: -5px;
+}
+
+.buttonD{
+	position: absolute;
+	z-index: 999;
+	background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    font-family: "Lato";
+    font-weight: 300;
+    margin-top: 23px;
+    margin-left: 22px;
+}
+
+
+.buttonD:hover{
+	background-color: #DF1D4E;
+    border: 1px solid #DF1D4E;
+    cursor: pointer;
+}
+
+/*-einde food&drinks--*/
+
+/*-toneelgroep--*/
+
+.toneelgroepaf {
+	position: absolute;
+	margin-top: -11px;
+	margin-left: -40px;
+}
+
+
+.textSectionFour{
+	position: absolute;
+	font-family: "Lato";
+    text-transform: uppercase;
+    z-index: 999;
+    font-weight: 300;
+    color: white;
+    margin-left: 2px;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 131px;
+  
+}
+
+.textSectionFour >span{
+    position: absolute;
+	font-family: "Lato";
+    text-transform: uppercase;
+    z-index: 999;
+    font-weight: 900;
+    color: #DF1D4E;
+    margin-left: -65px;
+}
+
+.buttonT{
+	position: absolute;
+	z-index: 999;
+	background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    font-family: "Lato";
+    font-weight: 300;
+    margin-top: 11px;
+    margin-left: -25px;
+}
+
+
+.buttonT:hover{
+	background-color: #DF1D4E;
+    border: 1px solid #DF1D4E;
+    cursor: pointer;
+}
+
+
+/*-einde toneelgroep--*/
+
+/*-ontdek imperium--*/
+
+.Ontdeki {
+	position: absolute;
+	margin-top: -27px;
+	margin-left: -40px;
+}
+
+.textSectionFive{
+	position: absolute;
+	font-family: "Lato";
+    text-transform: uppercase;
+    z-index: 999;
+    font-weight: 300;
+    color: white;
+    margin-left: 2px;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 144px;  
+}
+
+.textSectionFive >span{
+    position: absolute;
+	font-family: "Lato";
+    text-transform: uppercase;
+    z-index: 999;
+    font-weight: 900;
+    color: #DF1D4E;
+    margin-left: -65px;
+}
+
+.buttonO{
+	position: absolute;
+	z-index: 999;
+	background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    font-family: "Lato";
+    font-weight: 300;
+    margin-top: 11px;
+    margin-left: -25px;
+}
+
+
+.buttonO:hover{
+	background-color: #DF1D4E;
+    border: 1px solid #DF1D4E;
+    cursor: pointer;
+}
+
+
+
+
+/*- einde ontdek imperium--*/
+
+body > section:nth-child(2) article:nth-child(3) figcaption button{
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	text-transform: uppercase;
+	padding: 8px 16px;
+	font-family: "Lato";
+	font-weight: 300;
+	z-index: 999;
+}
+
+/*-- eind programma & tickets--*/
+
+body > section:nth-child(2) article:nth-child(2){
+	width: 490px;
+	height: 245px;
+	margin-left: -40px;
+	margin-top: -15px;
+
+}
+
+body > section:nth-child(2) article:last-child{
+	width: 490px;
+	height: 245px;
+}
+
+body > section:nth-child(3) section{
+	width: 100%;
+	height: 240px;
+}
+
+/*-----*/
+
+body > section:nth-child(3) section article:first-child{
+	width: 245px;
+	height: 245px;
+	float: left;
+}
+
+/*-----*/
+
+body > section:nth-child(3) section article:last-child{
+	width: 245px;
+	height: 245px;
+	float: left;
+}
+
+body > section:nth-child(3) > article:nth-child(2){
+	width: 490px;
+	height: 245px;
+	clear: left;
+}
+
+body > section:nth-child(3) > article:nth-child(3){
+	width: 490px;
+	height: 490px;
+	clear: left;
+}
+
+body > header {
+	width: 100%; 
+	background-color: none;
+	height: 460px;
+	overflow: hidden;
+	position: relative;
+}
+
+body > header .slider{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+
+.links, .rechts {
+	position: absolute;
+	top: 250px;
+	left: 16px;
+	z-index: 999;
+	width: 20px;
+	opacity: 0.5;
+}
+
+.rechts{
+	left: auto;
+	right: 16px;
+}
+
+.slide {
+	width: 100%;
+	position: relative;
+	margin: 0;
+}
+/*
+.slide figure {
+	height:460px;
+}*/
+
+.slider figure a img {
+height: 460px;}
+
+.textslider1 {
+	position: absolute;
+	bottom: 0;
+	right: 130px;
+	font-family: "Lato";
+	color: white;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: 300;
+	top: 250px;
+	
+}
+
+.textslider1 > span {
+	font-weight: 900;
+	color: #DF1D4E;
+	z-index: 10000;
+}
+
+.buttonslider1 {
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	text-transform: uppercase;
+	padding: 8px 16px;
+	font-family: "Lato";
+	font-weight: 300;
+	margin-bottom: 64px;
+	position: absolute;
+	z-index: 10000;
+	top: 100px;
+	right: 150px;
+}
+
+.buttonslider1:hover {
+	background-color: #be1e2d;
+	border: 1px solid #be1e2d;
+	z-index: 10000;
+}
+
+.textslider1 > span {
+	font-weight: 900;
+	color: #be1e2d;
+	z-index: 10000;
+}
+
+.textslider2 {
+	position: absolute;
+	bottom: 0;
+	right: 90px;
+	font-family: "Lato";
+	color: white;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: 300;
+	top: 250px;
+	z-index: 10000;
+}
+
+.textslider2 > span {
+	font-weight: 900;
+	color: #be1e2d;
+	z-index: 10000;
+
+}
+
+.buttonslider2 {
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	text-transform: uppercase;
+	padding: 8px 16px;
+	font-family: "Lato";
+	font-weight: 300;
+	margin-bottom: 64px;
+	position: absolute;
+	z-index: 10000;
+	top: 350px;
+	right: 340px;
+}
+
+
+.buttonslider2:hover {
+	background-color: #be1e2d;
+	border: 1px solid #be1e2d;
+	z-index: 10000;
+
+}
+
+/*slider3 */
+
+.textslider3 {
+	position: absolute;
+	bottom: 0;
+	right: 110px;
+	font-family: "Lato";
+	color: white;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: 300;
+	top: 250px;
+}
+
+.textslider3 > span {
+	font-weight: 900;
+	color: #DF1D4E;
+
+}
+
+.buttonslider3 {
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	text-transform: uppercase;
+	padding: 8px 16px;
+	font-family: "Lato";
+	font-weight: 300;
+	margin-bottom: 64px;
+	position: absolute;
+	z-index: 10000;
+	top: 350px;
+	right: 605px;
+}
+
+
+.buttonslider3:hover {
+	background-color: #be1e2d;
+	border: 1px solid #be1e2d;
+
+}
+
+footer {
+	top: 1000px;
+	font-family: "Lato";
+	font-size: 12px;
+	background-color: #404041;
+	color: white;
+	text-transform: uppercase;
+	padding: 20px;
+}
+
+.footersection1 {
+	position: absolute;
+	margin-top: 800px;
+	margin-left: 10px;
+}
+
+/*-Helaas was er veel versprongen. Ik heb alles geprobeert te positioneren
+en alvast de opmaak proberen meet te geven. Ik heb niet genoeg tijd gehad om 
+alle afbeeldingen uit te werken.-*/
+
+.footerpositionering {
+	background-color: grey;
+	width: 980px;
+	height: 200px;
+	position: absolute;
+	margin-top: 440px;
+	margin-left: 0px;
+}
+
+
+/*-----tekts hci homepagina opmaak--------*/
+.tekst {
+	margin-right: 90px;
+	margin-left: 90px;
+	margin-bottom: 5px;
+	line-height: 2.3em;
+	font-family: "lato";
+
+}
+
+.tekst2 {
+	margin-right: 90px;
+	margin-left: 90px;
+	margin-bottom: 100px;
+	line-height: 2.3em;
+	font-family: "lato";
+
+}
+
+.headerHci{
+	font-family: "Lato";
+	color: #be1e2d;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+/*-------tickets bestellen pagina------*/
+
+.ticketbestellen{
+	width: 980px;
+}
+
+table{
+	width: 980px;
+	font-family: Lato;
+}
+
+.maand{
+	background-color: #DF1D4E;
+	font-family: Lato;
+	color: white;
+	height: 30px;
+}
+
+.maandF{
+	font-family: Lato, 900;
+	color: white;
+	height: 30px;
+	text-align: center;
+}
+
+.achtergrondF {
+	background-color: grey;
+}
+
+
+table.rooster th {
+	color: white;
+	height: 40px;
+	vertical-align: top;
+	margin: 0;
+}
+
+.maandM {
+	font-family: Lato;
+	color: white;
+	height: 30px;
+	text-align: center;
+}
+
+td {
+	border-style: none;
+	background-color: transparent;
+}
+
+tr {
+	width: 980px;
+}
+
+/*---Begin breadcrums----*/
+
+ul.breadcrumb {
+	padding-left: 0;
+	width: 980px;
+	margin-top: 20px;
+}
+
+ul.breadcrumb li:nth-child(3){
+	user-select: none;
+}
+
+.breadcrumb > a{
+	font-family: Lato;
+	font-weight: 200;
+	color: white;
+	text-transform: uppercase;
+
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    padding: 0px auto;
+	width: 980px;    
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 0px;
+    color: black;
+    content: "/\00a0";
+  
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: white;
+    text-decoration: none;
+    font-family: lato;
+    font-weight: 
+   
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #d8d8d8;
+    text-decoration: underline;
+
+}
+
+
+/*---Einde breadcrum---*/
+
+/*---begin exterion game---*/
+
+.tekstOpmaakVier{
+	font-family: 'Lato';
+	font-weight: 300;
+	color: grey;
+	size: 0.5em;
+	line-height: 2em;
+	width: 100%;
+}
+
+.afbeeldingextertion > img{
+	margin-left: 55%;
+	width: 40%;
+	height: 40%;
+	margin-bottom: 50px;
+	margin-top: -500px;
+
+}
+
+.extertionGamesSection{
+	margin-bottom: 30px;
+}
+
+/*---einde exterion game---*/
+
+/*---begin Computer Vision---*/
+
+.afbeeldingCv > img{
+	width: 50%;
+	height: 50%;
+
+}
+
+/*---einde Computer Vision---*/
+
+
+
+/*-----begin contact---------*/
+
+.formulierContact >input{
+	font-family: Lato;
+	color: grey;
+	display: block;
+	margin-top: 10px;
+	width: 300px;
+	height: 30px;
+	display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    font: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    color: #d1d2d2;
+    width: 250px;
+    padding: 18px;
+}
+
+
+.buttonContact{
+	background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding: 8px 45px;
+    font-family: "Lato";
+    font-weight: 300;
+    margin-left: 10px;
+
+}
+
+.buttonContact:hover{
+	background-color: #DF1D4E;
+    border: 1px solid #DF1D4E;
+    cursor: pointer;
+}
+
+.textA{
+	display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    font: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    color: #d1d2d2;
+    width: 250px;
+    padding: 18px;
+
+}
+
+/*-----Einde contact---------*/
+
+
+/*-----begin Over Imperium---------*/
+
+.tekstOpmaak{
+	font-family: 'Lato';
+	text-transform: uppercase;
+	font-weight: 300;
+	color: white;
+	size: 2em;
+	margin-bottom: 10px;
+
+}
+
+
+.tekstOpmaak > span{
+	font-family: lato;
+    color: #DF1D4E;
+    font-weight: 700;
+}
+
+
+.tekstOpmaakTwee{
+	font-family: 'Lato';
+	font-weight: 300;
+	color: grey;
+	size: 0.5em;
+	line-height: 2em;
+	width: 55%;
+}
+
+.ontdekAfbl >img{
+	margin-left: 60%;
+	width: 40%;
+	margin-top: -30%;
+}
+
+.ontdekAfblTwee >img{
+	margin-left: 60%;
+	margin-top: -48%;
+
+}
+
+/*-----begin bestelling afronden---------*/
+
+.radioButtons >input{
+	display: inline;
+	width: 5%;
+    font: Lato;
+    font-size: 14px;
+    font-weight: normal;
+    color: #d1d2d2;
+}
+
+.radioButtons{
+	margin: 0 auto;
+	margin-left: 30%;
+	margin-top: 48px;
+}
+
+.buttonsAfronden{
+	background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding: 8px 45px;
+    font-family: "Lato";
+    font-weight: 300;
+    margin-top: 20px;
+    display: block;
+    margin-left: 40%;
+}
+
+.buttonsAfronden:hover{
+	background-color: #DF1D4E;
+    border: 1px solid #DF1D4E;
+    cursor: pointer;
+}
+
+/*-----Einde bestelling afronden---------*/
+
+/*-----Begin betalen---------*/
+
+.betalenp{
+	margin-top: 80px;
+}
+
+.betalenp2{
+	margin: 0 auto;
+	margin-left: 10%;
+}
+
+/*-----Eindebetalen---------*/
+
+/*-----Begin bedankt---------*/
+
+
+
+/*-----Einde bedankt---------*/
+
+
+/*-----einde Over Imperium---------*/
+/*-----begin huren---------*/
+
+.tekstOpmaakDrie{
+	font-family: 'Lato';
+    font-weight: 300;
+    color: grey;
+    size: 0.5em;
+    line-height: 2em;
+    width: 55%;
+}
+
+.opmaakAfblHuren > img{
+	margin-left: 60%;
+	width: 40%;
+	margin-top: -30%;
+}
+
+
+/*-----einde huren---------*/
+/*-----begin foto--------*/
+.gallery{
+	float: left;
+	display: inline;
+	margin: 2px;
+}
+/*-----Einde foto--------*/
+/*------begin afrekenen-------*/
+div>input {
+    display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: white;
+    border: none;
+    resize: none;
+    font: Lato;
+    font-size: 14px;
+    font-weight: normal;
+    color: #d1d2d2;
+    width: 250px;
+    padding: 18px;
+}
+
+.login{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding: 8px 45px;
+    font-family: "Lato";
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.login:hover{
+	background-color: #DF1D4E;
+	border: 1px solid #DF1D4E;
+	cursor: pointer;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+label>b{
+	margin-bottom: 10px;
+}
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    padding-top: 16px;
+}
+
+b {
+	margin-bottom: 10px;
+	font-family: "Lato";
+	text-transform: uppercase;
+	color: white;
+	font-weight: 300;
+}
+
+.inloggenTwee{
+	border-top: 2px solid #222;
+    border-bottom: 2px solid #222;
+    padding: 7px;
+    width: 970px;
+    height: 30px;
+    font-family: lato;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.inloggenDrie{
+	border-top: 2px solid #222;
+    border-bottom: 2px solid #222;
+    padding: 7px;
+    width: 970px;
+    height: 30px;
+    margin-top: 30px;
+    font-family: lato;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.formulier{
+	margin-top: 68px;
+}
+
+.containerTwee{
+	margin-top: 100px;
+	padding: 16px;
+	align-content: center;
+}
+
+
+/*------einde afrekenen-------*/
+
+
+
+/*----- begin winkelwagen css---------*/
+
+
+section>.winkelwagen{
+	align-self: center;
+	font-family: lato;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform: uppercase;
+	color: white;
+	height: 50px;
+	margin: 0 auto;
+	position: absolute;
+	z-index: 2;
+}
+
+.overzicht{
+	border-top: 2px solid #222;
+	border-bottom: 2px solid #222;
+	padding: 7px;
+	width: 970px;
+	height: 30px;
+	font-family: lato;
+	margin-top: 100px;
+	position: absolute;
+	text-align: center;
+}
+
+#overzichtTekst {
+	font-size: 0,5em;
+	color: #222;
+	text-transform: uppercase;
+	font-family: lato;
+	font-weight: 300;
+	margin-left: 410px;
+	margin-top: 1px;
+	position: absolute;
+	z-index: 3;
+}
+
+/*h3 {
+	margin-left: 400px;
+}*/
+
+.winkelOverzicht{
+	font-family: lato;
+	color: white;
+	margin-top: 200px;
+
+}
+
+.layoutW{
+	font-family: late;
+	font-weight: 900;
+    color: white;
+    height: 30px;
+    text-align: center;
+}
+
+.invoer{
+	display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    font: Lato;
+    font-size: 14px;
+    font-weight: normal;
+    color: #d1d2d2;
+    width: 250px;
+    padding: 18px;
+    margin-left: 730px;
+}
+
+.overzichtTwee{
+	border-top: 2px solid #222;
+    border-bottom: 2px solid #222;
+    padding: 7px;
+    width: 970px;
+    height: 30px;
+    font-family: lato;
+    margin-top: 20px;
+    text-align: center;
+    }
+
+
+ .actiecode2{
+	border-top: 2px solid #222;
+	border-bottom: 2px solid #222;
+	padding: 7px;
+	width: 970px;
+	height: 30px;
+	margin-top: 10px;
+	text-transform: uppercase;
+ }
+
+/*-----einde winkelwagen css---------*/
+
+/*-------Footer homepage css----------*/
+
+.footer-distributedTwo{
+	background-color: #222;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: Lato 12em;
+	float: left;
+	padding: 55px 50px;
+	margin-top: -27px;
+}
+
+
+.footer-distributedTwo{
+	background-color: #222;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: Lato 12em;
+	float: left;
+	padding: 55px 50px;
+
+}
+
+.footer-distributedTwo .footer-left,
+.footer-distributedTwo .footer-center,
+.footer-distributedTwo .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributedTwo .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributedTwo h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributedTwo h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributedTwo .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributedTwo .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributedTwo .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributedTwo .footer-center{
+	width: 30%;
+}
+
+.footer-distributedTwo .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributedTwo .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributedTwo .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributedTwo .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributedTwo .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributedTwo .footer-right{
+	width: 20%;
+	margin-right: 10px;
+}
+
+.footer-distributedTwo .footer-company-about{
+	line-height: 20px;
+	color:  white;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributedTwo .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributedTwo .footer-icons{
+	margin-top: 25px;
+	display: block;
+}
+
+.footer-distributedTwo .footer-icons a{
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  transparent;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.footer
+
+/* ------responsive footer--------*/
+
+@media (max-width: 880px) {
+
+	.footer-distributedTwo{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributedTwo .footer-left,
+	.footer-distributedTwo .footer-center,
+	.footer-distributedTwo .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributedTwo .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+/*------contact formulier-------*/
+
+.footer-distributedTwo form{
+	display: inline-block;
+}
+
+.footer-distributedTwo form input,
+.footer-distributedTwo form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: Lato;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 250px;
+	padding: 18px;
+}
+
+.footer-distributedTwo ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributedTwo ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributedTwo :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributedTwo form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributedTwo form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributedTwo form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+.footer-distributedTwo form button:hover{
+	
+}
+
+
+/*-----Footer homepage css einde----------*/
+
+.footer-distributed{
+	background-color: #222;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: Lato 12em;
+	float: left;
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 30%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+	margin-right: 10px;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  white;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+	display: block;
+}
+
+.footer-distributed .footer-icons a{
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  transparent;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.footer
+
+/* ------responsive footer--------*/
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+/*------contact formulier-------*/
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: Lato;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 250px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+.footer-distributed form button:hover{
+	
+}
