@@ -7,6 +7,11 @@ body{
 
 }
 
+.afbeeldingArt >img {
+	width: 40%;
+	height: 40%;
+}
+
 .zoekbalk{
     width: 130px;
     box-sizing: border-box;
