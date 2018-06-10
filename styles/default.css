@@ -12,6 +12,12 @@ body{
 	height: 40%;
 }
 
+.afbeeldingA > img{
+	width: 10%;
+	height: 10%;
+	
+}
+
 .zoekbalk{
     width: 130px;
     box-sizing: border-box;
